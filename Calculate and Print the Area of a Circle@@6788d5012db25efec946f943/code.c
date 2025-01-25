@@ -4,8 +4,8 @@
 int main() {
     float r;
     scanf("%f",&r);
-    float are= (3.14*(r*r));
-    printf("Area: %f",are);
+    int are= (3.14*(r*r));
+    printf("Area: %d",are);
 
     return 0;
 }
