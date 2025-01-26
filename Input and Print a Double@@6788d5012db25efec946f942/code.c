@@ -3,6 +3,6 @@
 int main() {
     double a;
     sacnf("%lf",&a);
-    printf("You entered :",a);
+    printf("You entered: ",a);
     return 0;
 }
