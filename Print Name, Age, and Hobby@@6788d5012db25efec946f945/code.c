@@ -7,7 +7,7 @@ int main() {
     int ae;
     char str[100];
     scanf("%s %d %s",&str, &ae, &str);
-    printf("Name: \n %s",str);
+    printf("Name: \n%s",str);
     printf("Age: %d",ae);
     printf("Hobby: %s",str);
 
