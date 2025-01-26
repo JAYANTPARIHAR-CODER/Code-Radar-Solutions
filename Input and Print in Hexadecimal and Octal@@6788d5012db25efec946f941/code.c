@@ -2,7 +2,7 @@
 
 
 int main() {
-    char a[100];
+    char a;
     int b;
     scanf("%o %x",&a,&b);
     printf("Hexadecimal: ",a);
