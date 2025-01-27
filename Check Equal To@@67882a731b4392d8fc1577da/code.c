@@ -2,7 +2,7 @@
 
 
 int main() {
-    int x,y;
+    int x," ",y;
     sacnf("%d %d",&x,&y);
     if(x == y){
         printf("True");
