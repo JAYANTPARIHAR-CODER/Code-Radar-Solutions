@@ -11,6 +11,5 @@ int main() {
         printf("False");
     }
 
-    
     return 0;
 }
