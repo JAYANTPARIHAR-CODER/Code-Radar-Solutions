@@ -4,7 +4,7 @@ int main() {
     int first;
     int sec;
     scanf("%d",&first,&sec);
-    if(first<secound){
+    if(first<sec){
         printf("True");
     }
     else{
