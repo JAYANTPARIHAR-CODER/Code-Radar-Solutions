@@ -1,10 +1,10 @@
 #include <stdio.h>
 
 int main() {
-    int first;
-    int sec;
-    scanf("%d %d",&first,&sec);
-    if(first<sec){
+    int x;
+    int y;
+    scanf("%d %d",&x,&y);
+    if(fx<y){
         printf("True");
     }
     else{
