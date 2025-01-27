@@ -2,8 +2,8 @@
 
 int main() {
     int first;
-    int secound;
-    scanf("%d",&first,&secound);
+    int sec;
+    scanf("%d",&first,&sec);
     if(first<secound){
         printf("True");
     }
