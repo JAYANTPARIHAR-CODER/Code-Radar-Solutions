@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 int main() {
-    int c,z;
+    int x,y;
     scanf("%d %d",&x,&y)
-    if(c<=z){
+    if(x<=y){
         printf("True");
     }
     else{
