@@ -4,7 +4,7 @@ int main() {
     int x;
     int y;
     scanf("%d %d",&x,&y);
-    if(fx<y){
+    if(x<y){
         printf("True");
     }
     else{
