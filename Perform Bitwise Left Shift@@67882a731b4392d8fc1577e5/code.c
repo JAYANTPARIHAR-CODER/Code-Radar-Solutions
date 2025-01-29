@@ -1,9 +1,7 @@
 #include <stdio.h>
 
-
 int main() {
-    int x;
-    int y;
+    int x,y;
     scanf("%d",&x,&y);
     printf("%d",x<<y);
 
