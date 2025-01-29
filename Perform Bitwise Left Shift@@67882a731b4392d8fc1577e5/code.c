@@ -1,8 +1,8 @@
 #include <stdio.h>
 
 int main() {
-    int x;
-    scanf("%d",&x);
+    int x,y;
+    scanf("%d",&x,&y);
     printf("%d",x<<y);
 
     return 0;
