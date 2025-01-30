@@ -3,12 +3,12 @@
 
 int main() {
     int a;
-    sannf("%d",&a);
+    scanf("%d",&a);
     if(a&1){
         printf("Set");
     }
     else{
-        print("Not Set");
+        printf("Not Set");
     }
     return 0;
 }
