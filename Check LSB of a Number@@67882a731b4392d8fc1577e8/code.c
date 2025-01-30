@@ -3,7 +3,7 @@
 
 int main() {
     int a;
-    scacnf("%d",&a);
+    sannf("%d",&a);
     if(a&1){
         printf("Set");
     }
