@@ -3,7 +3,7 @@
 
 int main() {
     int a,b,c;
-    sacnf("%d %d");
+    sacnf("%d %d %d",&a,&b,&c);
     if(a>0){
         printf("Positive");
     }
