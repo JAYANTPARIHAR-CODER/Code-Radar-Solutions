@@ -2,8 +2,8 @@
 
 
 int main() {
-    int a,b,c;
-    sacnf("%d %d %d",&a,&b,&c);
+    int a;
+    sacnf("%d");
     if(a>0){
         printf("Positive");
     }
