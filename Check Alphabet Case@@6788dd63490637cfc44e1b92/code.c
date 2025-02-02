@@ -5,10 +5,10 @@ int main() {
     char ch;
     scanf("%c",&ch);
     if((ch>64) && (ch<90)){
-        printf("Uppercase",ch);
+        printf("Uppercase");
     }
     else{
-        printf("Lowercase"ch);
+        printf("Lowercase");
     }
 
     return 0;
