@@ -7,12 +7,12 @@ int main() {
     if((ch>64) && (ch<90)){
         printf("Uppercase");
     }
-    // else if{
-    //     printf("Lowercase");
-    // }
     else{
-        printf("Not an alphabet");
+        printf("Lowercase");
     }
+    // else{
+    //     printf("Not an alphabet");
+    // }
 
     return 0;
 }
