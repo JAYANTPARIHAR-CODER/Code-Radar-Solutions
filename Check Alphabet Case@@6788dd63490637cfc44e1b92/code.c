@@ -8,7 +8,7 @@ int main() {
         printf("Uppercase %c",&n);
     }
     else{
-        printf("Lowercase");
+        printf("Lowercase %c"&n);
     }
 
     return 0;
