@@ -4,7 +4,7 @@
 int main() {
     int a,b,c;
     sadnf("%d %d %d");
-    if(a>b && a>c){
+    if(a+b>c && a+c>b && c+b>a){
         printf("Valid");
     }
     else{
