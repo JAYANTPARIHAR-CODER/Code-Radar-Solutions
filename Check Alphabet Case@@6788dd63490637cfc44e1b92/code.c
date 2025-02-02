@@ -5,7 +5,7 @@ int main() {
     char n;
     scanf("%c",&n);
     if((n>="A") && (n<="Z")){
-        printf("Uppercase");
+        printf("Uppercase %c",&n);
     }
     else{
         printf("Lowercase");
