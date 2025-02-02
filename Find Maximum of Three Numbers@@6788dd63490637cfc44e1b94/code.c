@@ -2,12 +2,17 @@
 
 
 int main() {
-    int n,z,j;
+    int a,b,c;
     scanf("%d %d %d",%n,z,j);
     if(a>b && a>c){
         printf("%d",&a);
     }
-    else if()
+    else if(b>c && b>a){
+        printf("%d",&b);
+    }
+    else{
+        printf("%d",&c);
+    }
 
     return 0;
 }
