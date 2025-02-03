@@ -2,9 +2,9 @@
 
 int main() {
     int a, c;
-    scanf("%d",&a,&c);
+    scanf("%d %d",&a,&c);
     if(a<c){
-        printf("Profit ");
+        printf("Profit");
     }
     else if(a >c){
         printf("Loss");
