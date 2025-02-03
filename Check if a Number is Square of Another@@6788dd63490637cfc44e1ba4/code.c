@@ -2,8 +2,8 @@
 
 int main() {
     int a,d;
-    scanf("%d ",a,d);
-    if(a=square(s)){
+    scanf("%d ",&a,&d);
+    if(a=square(d)){
         printf("Yes");
     }
     else{
