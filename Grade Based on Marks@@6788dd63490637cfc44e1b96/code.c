@@ -2,7 +2,6 @@
 
 int main() {
     int b;
-    // char A,B,C,D,F;
     scanf("%d",&b);
     if(b>=90){
         printf("A");
