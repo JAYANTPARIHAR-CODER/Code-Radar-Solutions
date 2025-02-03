@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 int main() {
-    char mar;
+    int mar;
     // char A,B,C,D,F;
-    scanf("%d %d %d %d %d");
+    scanf("%d",&mar);
     if(mar>=90){
         printf("A");
     }
