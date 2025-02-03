@@ -2,7 +2,7 @@
 
 int main() {
     int a;
-    sCAf("%d",a);
+    sCAf("%d",&a);
     if(a>=60){
         printf("Eligible");
     }
