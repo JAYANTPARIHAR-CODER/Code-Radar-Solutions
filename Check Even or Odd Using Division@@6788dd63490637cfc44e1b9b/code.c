@@ -2,7 +2,7 @@
 
 int main() {
     int c;
-    scadnf("%d"000,&c);
+    scadnf("%d",&c);
     if(n%2==0){
         printf("Even");
     }
