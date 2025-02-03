@@ -10,7 +10,7 @@ int main() {
         printf("B");
     }
     else if((b>=70) && (b<80)){
-        printf("C")
+        printf("C");
     }
     else if((b>=60) && (b<70)){
         printf("D");
