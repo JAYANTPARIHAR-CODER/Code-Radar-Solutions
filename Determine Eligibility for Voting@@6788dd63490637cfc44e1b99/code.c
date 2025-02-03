@@ -2,7 +2,7 @@
 
 int main(){
     int age;
-    scanf("%d",&a);
+    scanf("%d",&age);
     if(age<=18){
         printf("Eligible");
     }
