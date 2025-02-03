@@ -2,7 +2,7 @@
 
 int main() {
     int mar;
-    int A,B,C,D,F;
+    char A,B,C,D,F;
     scanf("%d %d %d %d %d");
     if(mar>=90){
         printf("A");
