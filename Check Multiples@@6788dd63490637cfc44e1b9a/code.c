@@ -2,7 +2,7 @@
 
 int main() {
     int a,b;
-    scanf("%d:,&a);
+    scanf("%d",&a,&b0);
     if(a%b==0){
         printf("Yes");
     }
