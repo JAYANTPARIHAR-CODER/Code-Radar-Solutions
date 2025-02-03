@@ -3,7 +3,7 @@
 int main() {
     int a,d;
     scanf("%d %d",&a,&d);
-    if(a=square(d)){
+    if(a=d*d){
         printf("Yes");
     }
     else{
