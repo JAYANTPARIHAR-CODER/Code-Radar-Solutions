@@ -3,7 +3,7 @@
 
 int main() {
     int a,c;
-    scanf("%d ",&a,&b);
+    scanf("%d %d",&a,&b);
     if(a==c){
         printf("Equal");
     }
