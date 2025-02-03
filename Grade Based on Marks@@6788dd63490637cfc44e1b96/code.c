@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main() {
-    int mar;
+    char mar;
     // char A,B,C,D,F;
     scanf("%d %d %d %d %d");
     if(mar>=90){
