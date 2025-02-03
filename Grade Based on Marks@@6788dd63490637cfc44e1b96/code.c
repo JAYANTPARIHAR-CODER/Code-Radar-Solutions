@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 int main() {
-    int mar;
+    int a;
     // char A,B,C,D,F;
-    scanf("%d",&mar);
+    scanf("%d",&a);
     if(mar>=90){
         printf("A");
     }
@@ -16,7 +16,7 @@ int main() {
     else if((mar>=60) && (mar<70)){
         printf("D");
     }
-    else if(mar<60){
+    else(mar<60){
         printf("F");
     }
 
