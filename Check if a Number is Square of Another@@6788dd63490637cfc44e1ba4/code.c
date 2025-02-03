@@ -2,7 +2,7 @@
 
 int main() {
     int a,d;
-    scanf("%d ",&a,&d);
+    scanf("%d %d",&a,&d);
     if(a=square(d)){
         printf("Yes");
     }
