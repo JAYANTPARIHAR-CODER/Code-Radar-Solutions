@@ -4,7 +4,7 @@ int main() {
     int c;
     scanf("%d",&c);
     if(n/2==0){
-        printf("Even");
+        printf("Even %.2f");
     }
     else{
         printf("Odd");
