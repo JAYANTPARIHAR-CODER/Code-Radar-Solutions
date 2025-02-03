@@ -16,7 +16,7 @@ int main() {
     else if((mar>=60) && (mar<70)){
         printf("D");
     }
-    if(mar<60){
+    else(mar<60){
         printf("F");
     }
 
