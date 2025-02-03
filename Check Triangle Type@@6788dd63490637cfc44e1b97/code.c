@@ -6,7 +6,7 @@ int main() {
     if(j==k && k==l){
         printf("Equialteral");
     }
-    else if(j==k && k==l){
+    else if(j==k || k==l j==l){
         printf("Isosceles");
     }
     else{
