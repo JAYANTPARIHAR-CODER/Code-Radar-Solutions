@@ -13,6 +13,19 @@ int main() {
     else if(n==3){
         printf("Wednesday");
     }
+    else if(n==4){
+        printf("Thusday");
+    }
+    else if(n==5){
+        printf("Friday");
+    }
+    else if(n==6){
+        printf("Saturday");
+    };
+    else{
+        printf("Sunday")
+    }
+
 
     return 0;
 }
