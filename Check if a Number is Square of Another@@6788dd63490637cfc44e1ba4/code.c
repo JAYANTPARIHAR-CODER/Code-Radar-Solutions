@@ -3,7 +3,7 @@
 int main() {
     int a,d;
     scanf("%d %d",&a,&d);
-    if(a=(d^2)){
+    if((a)=(d^2)){
         printf("Yes");
     }
     else{
