@@ -39,7 +39,7 @@ int main() {
     else if(n==12){
         printf("31");
     }
-    else{
+    else if{
         printf("Invalid");
     }
 
