@@ -23,7 +23,7 @@ int main() {
         printf("Saturday");
     }
     else{
-        printf("Sunday")l;
+        printf("Sunday");
     }
 
 
