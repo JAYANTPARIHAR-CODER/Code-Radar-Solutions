@@ -22,7 +22,7 @@ int main() {
     else if(n==6){
         printf("Saturday");
     }
-    else{
+    else if{
         printf("Sunday");
     }
 
