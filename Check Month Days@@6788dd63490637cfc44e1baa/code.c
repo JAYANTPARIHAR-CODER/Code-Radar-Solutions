@@ -4,40 +4,40 @@ int main() {
     int n;
     scanf("%d",&n);
     if(n ==1){
-        printf("January");
+        printf("31");
     }
     else if(n==2){
-        printf("February");
+        printf("2");
     }
     else if(n ==3){
-        printf("March");
+        printf("31");
     }
     else if(n==4){
-        printf("April");
+        printf("30");
     }
     else if(n ==5){
-        printf("May");
+        printf("31");
     }
     else if(n==6){
-        printf("June");
+        printf("30");
     }
     else if(n==7){
-        printf("July");
+        printf("31");
     }
     else if(n==8){
-        printf("August");
+        printf("31");
     }
     else if(n ==9){
-        printf("September");
+        printf("30");
     }
     else if(n==10){
-        printf("October");
+        printf("31");
     }
     else if(n==11){
-        printf("November");
+        printf("30");
     }
     else if(n==12){
-        printf("December");
+        printf("31");
     }
 
     return 0;
