@@ -15,7 +15,7 @@ int main() {
     else if(ch=="*"){
         printf("%d %d ",a*b);
     }
-    else if(ch==4){
+    else if(ch=="/"){
         printf("%d %d",a/b);
     }
     else{
