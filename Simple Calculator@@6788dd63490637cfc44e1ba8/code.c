@@ -2,7 +2,7 @@
 
 
 int main() {
-    int a,b,;
+    int a,b,
     char ch;
     scanf("%d %d %c",&a,b, ch);
     if(ch ==1){
