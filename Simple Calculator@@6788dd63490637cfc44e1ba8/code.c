@@ -18,6 +18,9 @@ int main() {
     if(ch==4){
         printf("%d %d",a/b);
     }
+    else{
+        printf("error");
+    }
 
     return 0;
 }
