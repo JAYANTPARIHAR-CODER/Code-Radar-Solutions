@@ -8,14 +8,14 @@ int main() {
     if(ch ==1){
         printf("%d %d",a+b);
     }
-    if(ch==2){
+    else if(ch==2){
         printf("%d %d",a-b);
 
     }
-    if(ch==3){
+    else if(ch==3){
         printf("%d %d ",a*b);
     }
-    if(ch==4){
+    else if(ch==4){
         printf("%d %d",a/b);
     }
     else{
