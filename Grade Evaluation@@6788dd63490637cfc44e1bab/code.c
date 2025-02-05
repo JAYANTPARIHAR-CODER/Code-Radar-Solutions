@@ -3,10 +3,10 @@
 int main() {
     char ch;
     scanf("%c",);
-    if(ch==A){
+    if(ch=="A"){
         printf("Excelleient");
     }
-    else if(ch==B){
+    else if(ch=="B"){
         printf("Good");
     }
     else if(ch==C){
