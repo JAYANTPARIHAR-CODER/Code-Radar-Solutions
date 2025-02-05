@@ -2,7 +2,7 @@
 
 int main() {
     char ch;
-    scanf("%c",);
+    scanf("%c",&ch);
     if(ch=="A"){
         printf("Excelleient");
     }
