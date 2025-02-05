@@ -19,7 +19,7 @@ int main() {
         printf("Fail");
     }
     else {
-        printf("");
+        printf("Invalid grade");
     }
     return 0;
 }
