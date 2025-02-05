@@ -6,13 +6,13 @@ int main() {
     if(a=='R'){
         printf("Stop");
     }
-    if else(a=='G'){
+    else if(a=='G'){
         printf("Go");
     }
-    if else(a=='Y'){
+    else if(a=='Y'){
         printf("Slow Down");
     }
-    else{
+    else {
         printf("Invalid input");
     }
     return 0;
