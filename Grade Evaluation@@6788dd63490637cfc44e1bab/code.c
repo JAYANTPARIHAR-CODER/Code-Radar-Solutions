@@ -18,7 +18,7 @@ int main() {
     else if(ch =="F"){
         printf("Average");
     }
-    else if(ch<=F){
+    else if(ch<="F"){
         printf("Fail");
     }
     else{
