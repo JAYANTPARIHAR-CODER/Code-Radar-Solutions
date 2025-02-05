@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+int ctr = 1
 int main(){
     int a;
     scanf("%d",&a);
@@ -7,9 +7,10 @@ int main(){
         for (int j = a;j<i;j--){
             printf(" ");
         }
-        for (int k = 0; k<(2*a-1);k++){
+        for (int k = a; k<(2*ctr-1);k++){
             printf("*");
         }
+        ctr++;
         printf("\n");
         
     }
