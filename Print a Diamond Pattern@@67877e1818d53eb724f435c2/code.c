@@ -9,8 +9,9 @@ int main() {
             if(n%2!=0){
                 printf("*");
             }
-            printf("\n");
+            for(int k=1;k<=n;k++)
         }
+        printf("\n");
     }
 
     return 0;
