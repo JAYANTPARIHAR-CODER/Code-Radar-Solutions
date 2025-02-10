@@ -9,6 +9,7 @@ int main() {
             if(n%2!=0){
                 printf("*");
             }
+            printf("\n");
         }
     }
 
