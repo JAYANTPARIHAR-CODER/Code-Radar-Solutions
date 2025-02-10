@@ -11,7 +11,7 @@ int main() {
         int a=1;
         for(int k=1;k<=n;k++){
             if(k%2!=0){
-                printf("*",);
+                printf("*");
                 a=a+2;
             }
 
