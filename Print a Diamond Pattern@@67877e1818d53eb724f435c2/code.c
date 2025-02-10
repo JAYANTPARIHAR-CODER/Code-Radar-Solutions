@@ -9,7 +9,10 @@ int main() {
                 printf(" ");
         }
         for(int k=1;k<=n;k++){
-            printf("*");
+            if(k%2!=0){
+                printf("*");
+            }
+            
         }
         printf("\n");
     }
