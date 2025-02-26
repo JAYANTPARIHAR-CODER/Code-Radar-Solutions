@@ -1,5 +1,4 @@
 #include <stdio.h>
-int ctr = 1;
 int main(){
     int a;
     scanf("%d",&a);
