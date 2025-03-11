@@ -9,6 +9,7 @@ int main(){
                 char(ch)=(char)n;
                 printf("%d",j);
             }
+            printf("\n");
 
         }
         printf("\n");
