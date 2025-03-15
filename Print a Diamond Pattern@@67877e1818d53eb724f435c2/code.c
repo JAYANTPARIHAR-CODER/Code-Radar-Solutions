@@ -12,7 +12,7 @@ int main() {
         for(int k=1;k<=2*n-1;k++){
             if(k%2!=0){
                 printf("*");
-                a=a+2;
+                // a=a+2;
             }
 
             
