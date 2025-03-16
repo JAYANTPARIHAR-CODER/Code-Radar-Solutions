@@ -1,7 +1,6 @@
 #include<stdio.h>
 int main(){
     int sum;   
-    scanf("%d %d",&sum);
     int n;
     scanf("%d",&n);
 
