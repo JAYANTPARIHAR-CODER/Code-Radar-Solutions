@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-void print(int n){
+int print(int n){
     printf("You entered: %d",n);
 }
 int main() {
