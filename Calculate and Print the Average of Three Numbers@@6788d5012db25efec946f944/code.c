@@ -1,8 +1,8 @@
 #include <stdio.h>
 
-int avg(a,b,c){
-    cal = (a+b+c)/3;
-    return cal;
+int avg(int a,int b,int c){
+   float cal = (a+b+c)/3;
+    return avg;
 }
 
 int main() {
