@@ -1,5 +1,5 @@
 #include <stdio.h>
-void great(a,b){
+void great(int a,int b){
     if(a>b){
         printf("True");
     }
