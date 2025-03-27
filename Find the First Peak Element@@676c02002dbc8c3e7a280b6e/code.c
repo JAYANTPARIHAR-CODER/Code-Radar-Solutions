@@ -13,8 +13,8 @@ int main(){
     int countmax = INT_MAX;
     for(int i=0;i<n;i++){
         if(arr[i]<countmax){
-            countmax++;
+            printf("%d",countmax);
         }
     }
-    printf("%d",countmax);
+    
 }
