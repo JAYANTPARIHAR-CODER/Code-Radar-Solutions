@@ -14,10 +14,10 @@ int main(){
             counteven++;
         }
         else(
-        countodd++;
+    countodd++;
     )
     }
-    printf("%d",counteven);
+    printf("%d ",counteven);
     
     printf("%d",countodd);
     
