@@ -12,7 +12,7 @@ int main(){
     for(int i=0;i<n;i++){
         if(arr[i]==max)
             continue ;
-        if (arr[i]<smax)
+        if (arr[i]>smax)
             smax=arr[i];
     }
     printf("%d",smax);
