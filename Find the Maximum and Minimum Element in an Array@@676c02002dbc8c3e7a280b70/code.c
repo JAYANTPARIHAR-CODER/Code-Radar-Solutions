@@ -21,7 +21,7 @@ int main(){
             min=arr[i];
         }
     }
-    %d",max,min);
+
 
     return 0;
 }
