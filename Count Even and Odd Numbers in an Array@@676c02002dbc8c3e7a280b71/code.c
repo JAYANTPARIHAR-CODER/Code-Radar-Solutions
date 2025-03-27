@@ -13,11 +13,12 @@ int main(){
         if(arr[i]%2==0){
             counteven++;
         }
-    }
-    printf("%d",counteven);
-    else(
+        else(
         countodd++;
     )
+    }
+    printf("%d",counteven);
+    
     printf("%d",countodd);
     
 }
