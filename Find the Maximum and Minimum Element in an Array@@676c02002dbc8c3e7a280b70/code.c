@@ -14,13 +14,14 @@ int main(){
 
         }
     }
+    printf("%d",max);
     int min=INT_MIN;
     for(int i=0;i<n;i++){
         if(min<arr[i]){
             min=arr[i];
         }
     }
-    printf("%d %d",max,min);
+    %d",max,min);
 
     return 0;
 }
