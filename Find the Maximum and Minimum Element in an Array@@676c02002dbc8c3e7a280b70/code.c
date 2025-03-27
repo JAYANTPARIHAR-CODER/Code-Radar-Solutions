@@ -19,7 +19,7 @@ int main(){
             min=arr[j];
         }
     }
-    printf("%d %d",max,min);
+    printf("%d %d\n",max,min);
 
     return 0;
 }
