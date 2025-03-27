@@ -10,11 +10,13 @@ int main(){
     int max= INT_MIN;
     int smax = INT_MIN;
     for(int i=0;i<n;i++){
-        if(smax!=max || smax<arr[i]){
-            smax= arr[i];
-        }
+        if(arr[i]==max)
+            continue ;
+        if (arr[i]<smax)
+            
     }
     printf("%d",smax);
 
         return 0;
 }
+-
