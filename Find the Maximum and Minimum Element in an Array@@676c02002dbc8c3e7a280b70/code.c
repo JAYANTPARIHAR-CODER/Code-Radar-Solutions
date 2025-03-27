@@ -14,7 +14,7 @@ int main(){
             printf("%d",arr[i]);
         }
     }
-    for(int j=0;j<=n;j++){
+    for(int j=0;j<n;j++){
         if(min>arr[j]){
             min=arr[j];
         }
