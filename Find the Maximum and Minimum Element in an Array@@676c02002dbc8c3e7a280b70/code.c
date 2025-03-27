@@ -12,7 +12,9 @@ int main(){
         }
     }
     for(int j=0;j<=n;j++){
-        if(min>arr[j]);
+        if(min>arr[j]){
+            min=arr[j];
+        }
     }
     printf("%d ",&max);
     printf("%d",&min);
