@@ -15,7 +15,7 @@ int main(){
         }
     }
     int min=INT_MIN;
-    for(int i=0;i<n;++){
+    for(int i=0;i<n;i++){
         if(min<arr[i]){
             min=arr[i];
         }
