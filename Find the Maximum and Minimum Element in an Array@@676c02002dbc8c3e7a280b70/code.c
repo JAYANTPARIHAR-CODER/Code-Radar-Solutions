@@ -8,13 +8,13 @@ int main(){
         scanf("%d",&arr[i]);
     }
     int max=INT_MAX;
-    int min=INT_MIN;
     for(int i=0;i<n;i++){
         if(max<arr[i]){
             max=arr[i];
-            printf("%d",arr[i]);
+
         }
     }
+    int min=INT_MIN;
     for(int j=0;j<n;j++){
         if(min>arr[j]){
             min=arr[j];
