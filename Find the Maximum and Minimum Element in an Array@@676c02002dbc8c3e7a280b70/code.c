@@ -9,15 +9,15 @@ int main(){
     }
     int max=INT_MAX;
     for(int i=0;i<n;i++){
-        if(max<arr[i]){
+        if(arr[i]>max){
             max=arr[i];
 
         }
     }
     int min=INT_MIN;
-    for(int j=0;j<n;j++){
-        if(min>arr[j]){
-            min=arr[j];
+    for(int i=0;i<n;++){
+        if(min<arr[i]){
+            min=arr[i];
         }
     }
     printf("%d %d",max,min);
