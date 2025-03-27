@@ -20,7 +20,7 @@ int main(){
             min=arr[j];
         }
     }
-    printf("%d %d\n",max,min);
+    printf("%d %d",max,min);
 
     return 0;
 }
