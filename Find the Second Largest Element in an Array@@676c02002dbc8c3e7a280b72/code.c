@@ -13,7 +13,7 @@ int main(){
         if(arr[i]==max)
             continue ;
         if (arr[i]<smax)
-            smax=arr[i]
+            smax=arr[i];
     }
     printf("%d",smax);
 
