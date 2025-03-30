@@ -1,8 +1,10 @@
-int fibonacciSeries(int n){
-    // if(n==0) return 0;
-    if(n==1) return 0;
-    if(n==2) return 1;
-    int Ansd= fibonacciSeries(n-1) + fibonacciSeries(n-2);
-    printf("%d ",Ansd);
-    // return Ansd;
+void fibonacciSeries(int n){
+    int a = 0, b = 1;
+    for (int i=0; i<n; i++){
+        printf("%d ", a);
+        int next = a+b;
+        a = b;
+        b = next;
+    }
+
 }
