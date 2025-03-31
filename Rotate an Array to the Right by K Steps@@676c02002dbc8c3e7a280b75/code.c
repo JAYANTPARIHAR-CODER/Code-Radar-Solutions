@@ -6,7 +6,9 @@ int main(){
     for(int i=0;i<n;i++){
         scanf("%d",&arr[i]);
     }
-    for(int i=0,j=n-1;i<j,i++,j--){
+    int k;
+    scanf("%d",&k);
+    for(int i=0,j=k;i<j,i++,j--){
         int temp = arr[i];
         arr[i] =arr[j];
         arr[j] =temp;
