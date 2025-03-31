@@ -33,15 +33,15 @@ int main() {
     int size;
     //printf("Enter the size ");
     scanf("%d", &size);
-    int arr[size];
+    int arr[n];
     //printf("Enter the elements ");
     for(int i=0; i<size; i++) {
         scanf("%d", &arr[i]);
     }
-    int sum = INT_MAX;
+    int max = INT_MIN;
     for(int i=0; i<size; i++) {
-        if(arr[i] < sum) {
-            sum = arr[i];
+        if(arr[i] > sum) {
+            max = arr[i];
         }
     }
     printf("%d ",sum);
@@ -53,4 +53,6 @@ int main() {
         }
     }
     printf("%d",min);
+
+    return 0;
 }
