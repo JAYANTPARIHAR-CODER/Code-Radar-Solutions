@@ -1,20 +1,29 @@
 #include<stdio.h>
-#include<limits.h>
-int main(){
-    int n;
-    scanf("%d",&n);
-    int arr[n];
-    for(int i=0;i<=n;i++){
-        scanf("%d",&arr[i]);
-    }
-    int max=  INT_MAX;
-    int smax =arr[0];
-    for(int i=0;i<n;i++){
-        if(smax!=max || smax>=arr[i]){
-            smax= arr[i];
-        }
-    }
-    printf("%d",smax);
+int main() {
+    int size;
+    scanf("%d",&size);
 
-        return 0;
+    int copy[size];
+    int counted[size];
+    int arr[size];
+
+    // Input array elements
+    for(int i=0; i<size; i++){
+        scanf("%d", &arr[i]);
+        copy[i] = arr[i];
+        counted[i] = 0;
+    }
+
+    // Count frequency
+    for(int i=0; i<size; i++) {
+        if(counted[i]) continue;
+        int sum = 0;
+        for(int j=0; j<size; j++) {
+            if(arr[i] == copy[j]){
+                sum++;
+                counted[j] = 1;
+            }
+        }
+        printf("%d %d \n", arr[i], sum);
+    }
 }
