@@ -44,7 +44,7 @@ int main() {
             max = arr[i];
         }
     }
-    printf("%d ",sum);
+    printf("%d ",max);
 
     int min = INT_MIN;
     for(int i=0; i<size; i++) {
