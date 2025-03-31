@@ -14,7 +14,6 @@ int main(){
 
         }
     }
-    printf("%d ",max);
     int min=INT_MAX;
     for(int i=0;i<n;i++){
         if(arr[i]<min){
@@ -22,5 +21,6 @@ int main(){
         }
     }
     printf("%d",min);
+    printf("%d ",max);
 
 }
