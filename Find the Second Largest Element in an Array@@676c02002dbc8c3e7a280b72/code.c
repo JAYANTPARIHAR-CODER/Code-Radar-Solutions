@@ -48,7 +48,7 @@ int main() {
 
     int min = INT_MIN;
     for(int i=0; i<size; i++) {
-        if(arr[i] > min) {
+        if(arr[i]!=max && arr[i] > min) {
             min = arr[i];
         }
     }
