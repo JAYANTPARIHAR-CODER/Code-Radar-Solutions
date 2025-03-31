@@ -12,6 +12,7 @@ int main(){
         printf("NO");
         return 0;
     }
+    start++,end--;
    }
    printf("YES");
 }
