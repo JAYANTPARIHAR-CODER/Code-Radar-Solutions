@@ -1,29 +1,21 @@
 #include<stdio.h>
 int main() {
-    int size;
-    scanf("%d",&size);
+    int n,arr[1000];
+    scanf("%d",&n);
+    for (int i=0;i<n;i++)
+        scanf("%d",&arr[i]);
 
-    int copy[size];
-    int counted[size];
-    int arr[size];
-
-    // Input array elements
-    for(int i=0; i<size; i++){
-        scanf("%d", &arr[i]);
-        copy[i] = arr[i];
-        counted[i] = 0;
-    }
-
-    // Count frequency
-    for(int i=0; i<size; i++) {
-        if(counted[i]) continue;
-        int sum = 0;
-        for(int j=0; j<size; j++) {
-            if(arr[i] == copy[j]){
-                sum++;
-                counted[j] = 1;
+    int count[n];
+    for (int i=0;i<n;i++){
+        if (count[i]==1)
+            continue;
+        int counting =0;
+        for (int j=0;j<n;j++){
+            if (arr[i]==arr[j]){
+                count[j]==1;
+                couting++;
             }
         }
-        printf("%d %d \n", arr[i], sum);
-    }
+        printf("%d %d",arr[i],counting);
+    }
 }
