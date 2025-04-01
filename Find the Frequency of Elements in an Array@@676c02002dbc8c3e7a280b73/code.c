@@ -16,6 +16,6 @@ int main() {
                 counting++;
             }
         }
-        printf("%d %d",arr[i],counting);
+        printf("%d %d\n",arr[i],counting);
     }
 }
