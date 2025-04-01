@@ -11,6 +11,9 @@ int main(){
             if(a==0)a=1;
             else a=0;
         }
+        if(i%2==0){
+            a=0;
+        }else a=1;
         printf("\n");
 }
     return 0;
