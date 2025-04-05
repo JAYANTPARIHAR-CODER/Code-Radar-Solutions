@@ -18,7 +18,7 @@ int main() {
     }
     int sedmax= INT_MIN;
     for(int j=0;j<n;j++){
-        if(sedmax!=max || sedmax<arr[i]);
+        if(sedmax!=max || sedmax < arr[j]);
     }
 
     printf("%d",sedmax);
