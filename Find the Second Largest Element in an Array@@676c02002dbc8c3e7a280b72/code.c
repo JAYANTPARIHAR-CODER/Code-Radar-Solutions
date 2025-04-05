@@ -2,12 +2,12 @@
 #include<limits.h>
 
 int main() {
-    int size;
+    int n;
     //printf("Enter the size ");
-    scanf("%d", &size);
-    int arr[size];
+    scanf("%d", &n);
+    int arr[n];
     //printf("Enter the elements ");
-    for(int i=0; i<size; i++) {
+    for(int i=0; i<n; i++) {
         scanf("%d", &arr[i]);
     }
     int max =INT_MIN;
