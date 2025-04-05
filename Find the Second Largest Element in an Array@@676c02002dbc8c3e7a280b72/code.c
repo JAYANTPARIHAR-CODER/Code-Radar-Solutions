@@ -16,9 +16,10 @@ int main() {
             max =arr[i];
         }
     }
-    int sedmax= INT_MIN;
+    int sedmax = INT_MIN;
     for(int j=0;j<n;j++){
         if(sedmax!=max || sedmax < arr[j]){
+            sedmax = max;
             sedmax = arr[j];
         }
     }
