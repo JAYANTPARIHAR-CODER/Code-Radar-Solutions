@@ -1,33 +1,4 @@
-// #include<stdio.h>
-// #include<limits.h>
-// int main(){
-//     int n;
-//     scanf("%d",&n);
-//     int arr[n];
-//     for(int i=0;i<n;i++){
-//         scanf("%d",&arr[i]);
-//     }
-//     int max= INT_MAX;
-//     for(int i=0;i<n;i++){
-//         if(arr[i] < max){
-//             max=arr[i];
-//         }
-//     }
-
-//     int smax = INT_MIN;
-//     for(int i=0;i<n;i++){
-//         if(arr[i] > smax){
-//             smax= arr[i];
-//         }
-//     }
-//     //printf("%d",smax);
-
-//         return 0;
-// }
-
-// Your code here...
 #include <stdio.h>
-#include <limits.h>
 
 int main() {
     int size;
@@ -38,21 +9,18 @@ int main() {
     for(int i=0; i<size; i++) {
         scanf("%d", &arr[i]);
     }
-    int max = INT_MIN;
-    for(int i=0; i<size; i++) {
-        if(arr[i] > max) {
-            max = arr[i];
+    int max =INT_MIN;
+    for(int i=0;i<n;i++){
+        if(max>arr[i]){
+            max =arr[i];
         }
     }
-    // printf("%d ",max);
+    int sedmax= INT_MIN;
+    for(int i=0;i<n;i++){
+        if(sedmax!=max || sedmax<arr[i]);
+    }
 
-    int min = INT_MIN;
-    for(int i=0; i<size; i++) {
-        if((arr[i]!=max) && (arr[i] > min)) {
-            min = arr[i];
-        }
-    }
-    printf("%d",min);
+    printf("%d",sedmax);
 
     return 0;
 }
