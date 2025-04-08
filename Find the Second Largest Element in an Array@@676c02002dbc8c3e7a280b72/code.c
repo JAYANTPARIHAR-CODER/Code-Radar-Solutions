@@ -22,11 +22,10 @@ int main() {
             smax = max;
             smax = arr[j];
         }
-        else if(smax<arr[j] && max!=arr[i]){
+        else if(smax<arr[j] && max!=arr[j]){
             smax = arr[j];
         }
     }
-
     printf("%d",smax);
 
     return 0;
