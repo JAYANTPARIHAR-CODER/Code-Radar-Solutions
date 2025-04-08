@@ -22,7 +22,7 @@ int main() {
             sedmax = max;
             sedmax = arr[j];
         }
-        else if(sedmax<arr[i]){
+        else if(sedmax<arr[j]){
             smax = arr[i];
         }
     }
