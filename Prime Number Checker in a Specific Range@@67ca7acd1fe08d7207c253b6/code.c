@@ -1,4 +1,4 @@
-void PrimesInRange(a,b){
+void printPrimesInRange(a,b){
     int isPrime = 1;
     if(n<2){
         isPrime =0;
