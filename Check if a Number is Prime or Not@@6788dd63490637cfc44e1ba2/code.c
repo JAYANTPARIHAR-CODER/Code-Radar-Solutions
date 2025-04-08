@@ -3,7 +3,21 @@
 int main() {
     int n;
     scanf("%d",&n);
-    if((n>1) && (n%1==0)){
+    int isPrime =1;
+
+    if(n<=1){
+        isPrime = 0;
+    }
+    else{
+        for(int i=0;i<n-1;i++){
+            if(n%i==0){
+                isPrime = 0;
+                break;
+            }
+        }
+    }
+        
+    if(isPrime = 1){
         printf("Prime");
     }
     else{
