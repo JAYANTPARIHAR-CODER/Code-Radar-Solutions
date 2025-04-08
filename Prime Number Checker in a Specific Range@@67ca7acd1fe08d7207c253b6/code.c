@@ -1,4 +1,5 @@
 void printPrimesInRange(a,b){
+    int n;
     int isPrime = 1;
     if(n<2){
         isPrime =0;
