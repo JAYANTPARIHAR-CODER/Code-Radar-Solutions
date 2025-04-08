@@ -23,7 +23,7 @@ int main() {
             smax = arr[j];
         }
         else if(smax<arr[j]){
-            smax = arr[i];
+            smax = arr[j];
         }
     }
 
