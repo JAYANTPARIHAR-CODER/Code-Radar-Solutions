@@ -12,6 +12,7 @@ void PrimesInRange(a,b){
         }
     }
 }
+return i;
 if(isPrime =1){
     printf("%d",i);
 }
