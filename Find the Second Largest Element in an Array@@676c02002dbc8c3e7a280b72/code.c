@@ -27,7 +27,7 @@ int main() {
         }
     }
 
-    printf("%d",sedmax);
+    printf("%d",smax);
 
     return 0;
 }
