@@ -13,7 +13,7 @@ int main(){
             int temp = arr[i];
             arr[i] = arr[n-4-i];
             arr[n-4-i] = temp;
-    
+    }
     for(int i=3;i<n-1-i;i++){
             int temp = arr[i];
             arr[i] = arr[n-1-i];
