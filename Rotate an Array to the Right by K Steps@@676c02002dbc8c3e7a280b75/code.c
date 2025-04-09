@@ -23,7 +23,7 @@ int main(){
             arr[n-1-i] = temp;
     }
 
-    for(int i=0;i<=5;i++){
+    for(int i=0;i<=n;i++){
         printf("%d ",arr[i]);
     }
     
